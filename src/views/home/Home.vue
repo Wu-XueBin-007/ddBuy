@@ -70,7 +70,9 @@ export default {
     // 0.数据初始化
     this._initData()
   },
-  mounted() {},
+  mounted() {
+    console.log(111)
+  },
   data() {
     return {
       sowing_list: [], // 首页轮播图数据
